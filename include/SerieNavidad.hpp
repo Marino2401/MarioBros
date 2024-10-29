@@ -1,6 +1,7 @@
 #include <iostream>
 #include <Foco.hpp>
 #include <list>
+using namespace std;
 
 class SerieNavidad
 {
@@ -20,7 +21,7 @@ public:
     ~SerieNavidad() {}
     void Encender()
     {
-
+        system("color 84");
         for (auto &&f : focos)
         {
             f.Encender();
